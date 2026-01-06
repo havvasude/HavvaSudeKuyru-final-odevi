@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dictionary</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Dictionary Api</h1>
+      <p>
+        İngilizce kelimelerin anlamlarını API üzerinden gösteren bir sözlük
+        uygulaması.
+      </p>
+    </header>
+
+    <audio id="sound"></audio>
+
+    <!-- ORTADAKİ ARAMA KUTUSU -->
+    <main class="container">
+      <div class="search-box">
+        <input type="text" placeholder="type the word here.." id="inp-word" />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div class="result" id="result"></div>
+    </main>
+
+    <!-- EN ALTTAKİ BÖLÜMLER -->
+    <section class="about">
+      <h2>Hakkımızda</h2>
+      <p>
+        Bu proje JavaScript Fetch API kullanılarak geliştirilmiş bir sözlük
+        uygulamasıdır. Kullanıcıdan alınan İngilizce kelimelerin anlamlarını
+        Dictionary API üzerinden dinamik olarak göstermektedir.
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>İletişim</h2>
+      <p>
+        Sözlük uygulaması ile alakalı her türlü soru ve önerileriniz için bize
+        ulaşabilirsiniz.
+      </p>
+      <p>Email: example@mail.com</p>
+      <p>Telefon: +90 533 555 6778</p>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
