@@ -34,5 +34,5 @@ https://api.dictionaryapi.dev/api/v2/entries/en/{word}
 ## Proje Dosya Yapısı
 - index.html
 - style.css
-- script.js
+- index.js
 - README.md
